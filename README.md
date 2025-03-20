@@ -46,7 +46,7 @@ viincci template list
 ### Run a development workflow
 
 ```bash
-vinci run test-and-lint
+viincci run test-and-lint
 ```
 
 ## 📋 Commands
