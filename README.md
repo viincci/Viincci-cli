@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/github/license/yourusername/vinci-cli.svg)](LICENSE)
 
 > A Python-based command-line interface tool for quickly scaffolding projects and automating development workflows.
-
+> Note the code already exist I am just doing a slow upload unless I get another contributer
 ## 🎨 Overview
 
 `vinci-cli` is a developer productivity tool designed to eliminate boilerplate and automate repetitive tasks. Named after Leonardo da Vinci, who combined art and engineering, this tool aims to bring the same creative efficiency to your development process.
