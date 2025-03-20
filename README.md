@@ -1,4 +1,4 @@
-# vinci-cli
+# Viincci-cli 
 
 [![PyPI version](https://img.shields.io/pypi/v/vinci-cli.svg)](https://pypi.org/project/vinci-cli/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/vinci-cli.svg)](https://pypi.org/project/vinci-cli/)
@@ -8,7 +8,7 @@
 > Note the code already exist I am just doing a slow upload unless I get another contributer
 ## 🎨 Overview
 
-`vinci-cli` is a developer productivity tool designed to eliminate boilerplate and automate repetitive tasks. Named after Leonardo da Vinci, who combined art and engineering, this tool aims to bring the same creative efficiency to your development process.
+`viincci-cli` is a developer productivity tool designed to eliminate boilerplate and automate repetitive tasks. Named after Leonardo da Vinci, who combined art and engineering, this tool aims to bring the same creative efficiency to your development process.
 
 - **Project Scaffolding**: Create new projects from customizable templates
 - **Workflow Automation**: Define and run common development tasks
@@ -18,13 +18,13 @@
 ## 🚀 Installation
 
 ```bash
-pip install vinci-cli
+pip install viincci-cli
 ```
 
 Or install with advanced features:
 
 ```bash
-pip install "vinci-cli[full]"
+pip install "viincci-cli[full]"
 ```
 
 ## 🛠️ Quick Start
@@ -32,7 +32,7 @@ pip install "vinci-cli[full]"
 ### Create a new project
 
 ```bash
-vinci new python-package myproject
+viincci new python-package myproject
 ```
 
 This command creates a new Python package project named "myproject" using the built-in template.
@@ -40,7 +40,7 @@ This command creates a new Python package project named "myproject" using the bu
 ### List available templates
 
 ```bash
-vinci template list
+viincci template list
 ```
 
 ### Run a development workflow
@@ -54,7 +54,7 @@ vinci run test-and-lint
 ### Create a new project
 
 ```bash
-vinci new [template] [project-name] [options]
+viincci new [template] [project-name] [options]
 ```
 
 Options:
@@ -65,20 +65,20 @@ Options:
 ### Manage templates
 
 ```bash
-vinci template list [--category CATEGORY]
-vinci template add PATH [--name NAME]
+viincci template list [--category CATEGORY]
+viincci template add PATH [--name NAME]
 ```
 
 ### Run workflows
 
 ```bash
-vinci run [workflow] [--param KEY=VALUE]
+viincci run [workflow] [--param KEY=VALUE]
 ```
 
 ### Configure settings
 
 ```bash
-vinci config [--get KEY] [--set KEY=VALUE]
+viincci config [--get KEY] [--set KEY=VALUE]
 ```
 
 ## 🧩 Templates
@@ -130,11 +130,11 @@ steps:
 
 ## 🔧 Configuration
 
-Configuration is stored in `~/.config/vinci/config.yaml` by default:
+Configuration is stored in `~/.config/viincci/config.yaml` by default:
 
 ```yaml
-templates_dir: ~/.vinci/templates
-workflows_dir: ~/.vinci/workflows
+templates_dir: ~/.viincci/templates
+workflows_dir: ~/.viincci/workflows
 default_variables:
   author: Your Name
   license: MIT
@@ -145,8 +145,8 @@ default_variables:
 To set up for development:
 
 ```bash
-git clone https://github.com/yourusername/vinci-cli.git
-cd vinci-cli
+git clone https://github.com/yourusername/viincci-cli.git
+cd viincci-cli
 pip install -e ".[dev]"
 ```
 
@@ -158,7 +158,7 @@ pytest
 
 ## 📚 Documentation
 
-For full documentation, visit: [https://vinci-cli.readthedocs.io](https://vinci-cli.readthedocs.io)
+For full documentation, visit: [https://vuincci-cli.readthedocs.io](https://viincci-cli.readthedocs.io)
 
 ## 🤝 Contributing
 
